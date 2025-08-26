@@ -32,24 +32,11 @@ The API allows users to add, view, update, and delete products with data stored 
 - Node.js
 
 - Express
-
-## Project Structure
-.
-├── interview.js          
-├── routes/
-│   └── product.js
-├── datas/
-│   └── productDara.js
-├── middlewares/
-│   └── errorHandler.js
-│   └── validateProducts.js
-├── package.json
-├── package-lock.json
-└── README.md
-
+- 
 ## Installation & Setup
 ### 1. Clone repo
 git clone (https://github.com/ImamAlghifary/BACKED_BIZERA_INTERVIEW.git)
+
 cd BACKED_BIZERA_INTERVIEW
 
 ### 2. Install dependencies
@@ -60,6 +47,7 @@ node interview.js
 
 
 By default, the API runs at:
+
 http://localhost:3000
 
 ## API Endpoints
@@ -82,6 +70,7 @@ GET /product/:id
 ### Update Product
 
 PUT /product/:id
+
 Success:
 <img width="1905" height="1014" alt="image" src="https://github.com/user-attachments/assets/ed2ceee0-0dd0-40ce-b585-a70a82223789" />
 
