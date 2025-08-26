@@ -35,15 +35,14 @@ The API allows users to add, view, update, and delete products with data stored 
 - 
 ## Installation & Setup
 ### 1. Clone repo
-git clone (https://github.com/ImamAlghifary/BACKED_BIZERA_INTERVIEW.git)
-
-cd BACKED_BIZERA_INTERVIEW
+- git clone https://github.com/ImamAlghifary/BACKED_BIZERA_INTERVIEW.git
+- cd BACKED_BIZERA_INTERVIEW
 
 ### 2. Install dependencies
-npm install
+- npm install
 
 ### 3. Run server
-node interview.js
+- node interview.js
 
 
 By default, the API runs at:
@@ -71,10 +70,10 @@ GET /product/:id
 
 PUT /product/:id
 
-Success:
+#### Success:
 <img width="1905" height="1014" alt="image" src="https://github.com/user-attachments/assets/ed2ceee0-0dd0-40ce-b585-a70a82223789" />
 
-Error:
+#### Error:
 - Stock or Price < 0
   <img width="1913" height="1021" alt="image" src="https://github.com/user-attachments/assets/cf5f1772-7afe-48dc-aa33-744be229d227" />
 - Category is not string
